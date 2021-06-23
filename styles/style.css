@@ -32,6 +32,90 @@ body{
     display:flex;
     justify-content: space-between;
 }
+
+.calcu{
+    font-size: 35px;
+}
+
+.temaContainer{
+    display: inline-flex;
+    align-items:flex-end;
+}
+
+.textoTema{
+    margin: 0px 20px 15px 0px;
+    font-size: 15px;
+}
+
+.numeroTemaContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.numeroTema{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+/* --------- CSS DEL INPUT RANGE ----------------- */
+
+ input[type=range] {
+    -webkit-appearance: none;
+    background-color: transparent;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 30px;
+    cursor: pointer;
+    background: rgb(37,45,68);
+    border-radius: 15px;
+    padding: 6px;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 10px;
+    background: rgb(213,61,51);
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  input[type=range]::-moz-range-track {
+    height: 30px;
+    cursor: pointer;
+    background: rgb(37,45,68);
+    border-radius: 15px;
+    padding: 6px;
+  }
+  input[type=range]::-moz-range-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 10px;
+    background: rgb(213,61,51);
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    height: 30px;
+    padding: 6px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: rgb(37,45,68);
+  }
+  input[type=range]::-ms-fill-upper {
+    background: rgb(37,45,68);
+  }
+  input[type=range]::-ms-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 10px;
+    background: rgb(213,61,51);
+    cursor: pointer;
+  }
+
+
+  /* --------- FIN DEL CSS DEL INPUT RANGE ---------- */
+
 .result-container{
     background-color: var(--bg-results);
     border-radius: 10px;
@@ -49,7 +133,7 @@ body{
 }
 .result{
     text-align: right;
-    margin: 1vw 4vw 1vw 0vw;
+    margin: 1vw 2vw 1vw 0vw;
 }
 .number{
     border-radius: 5px;
