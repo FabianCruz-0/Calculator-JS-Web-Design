@@ -2,14 +2,18 @@
     --bg:rgb(59,70,100);
     --bg-results: rgb(24,31,50);
     --bg-keys-pad:rgb(37,45,68);
+    --bg-key:rgb(234,227,219);
+    --bg-key-shadow:rgb(182,163,153);
 }
 
 body{
     background-color: var(--bg);
     font-family: 'Spartan', sans-serif;
     color: white;
+    font-size: 32px;
 }
 .container{
+    width: 100vw;
     height: 100vh;
 }
 .flex-calculator{
@@ -25,9 +29,30 @@ body{
 }
 .result-container{
     background-color: var(--bg-results);
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .keys-pad{
     background-color: var(--bg-keys-pad);
+    border-radius: 15px;
+}
+.keys-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0px 20px 0px;
+}
+.result{
+    text-align: right;
+    margin: 1vw 4vw 1vw 0vw;
+}
+.number{
     border-radius: 5px;
+    width: 100%;
+    color: rgb(70,75,94);
+    background-color: var(--bg-key);
+    box-shadow: rgb(182,163,153) 0px 4px 0px;
+}
+.margen-boton{
+    padding: 0px 50px 0px 50px;
+    width: 100%;
 }
