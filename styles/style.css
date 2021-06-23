@@ -7,6 +7,8 @@
     --bg-key-del:rgb(100,113,153);
     --bg-key-del-shadow: rgb(66,78,115);
     --keys-color-th1:rgb(70,75,94);
+    --bg-key-equals: rgb(209,63,48);
+    --bg-key-equals-shadow: rgb(144,34,25);
 }
 
 body{
@@ -61,6 +63,18 @@ body{
     width: 100%;
     background-color: var(--bg-key-del);
     box-shadow: var(--bg-key-del-shadow) 0px 4px 0px;
+}
+.key-reset{
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--bg-key-del);
+    box-shadow: var(--bg-key-del-shadow) 0px 4px 0px;
+}
+.key-equals{
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--bg-key-equals);
+    box-shadow: var(--bg-key-equals-shadow) 0px 4px 0px;
 }
 .margen-boton{
     padding: 0px 20px 0px 20px;
