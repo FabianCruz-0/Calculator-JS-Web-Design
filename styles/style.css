@@ -1,0 +1,33 @@
+:root{
+    --bg:rgb(59,70,100);
+    --bg-results: rgb(24,31,50);
+    --bg-keys-pad:rgb(37,45,68);
+}
+
+body{
+    background-color: var(--bg);
+    font-family: 'Spartan', sans-serif;
+    color: white;
+}
+.container{
+    height: 100vh;
+}
+.flex-calculator{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding: 10%
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.result-container{
+    background-color: var(--bg-results);
+    border-radius: 5px;
+}
+.keys-pad{
+    background-color: var(--bg-keys-pad);
+    border-radius: 5px;
+}
