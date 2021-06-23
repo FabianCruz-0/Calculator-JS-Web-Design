@@ -15,7 +15,7 @@
 <td valign="top">
 Goal View in Desktop:
 
-![image]()
+![image](https://raw.githubusercontent.com/FabianCruz-0/Calculator-JS-Web-Design/main/goal-design/desktop.jpg)
 </td>
 <td valign="top">
 My own view in Desktop:
@@ -27,7 +27,7 @@ My own view in Desktop:
 <td valign="top">
 Goal View in mobile:
 
-![image]()
+![image](https://raw.githubusercontent.com/FabianCruz-0/Calculator-JS-Web-Design/main/goal-design/mobile.jpg)
 </td>
 <td valign="top">
 My own view in Mobile:
