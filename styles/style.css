@@ -72,5 +72,12 @@ body{
 @media (max-width: 992px) {
     .margen-boton{
         padding: 0px 10px 0px 10px;
+    } 
+    .flex-calculator{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        padding: 5% 5% 5% 5%;
     }
 }
