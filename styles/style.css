@@ -141,24 +141,59 @@ body{
     color: var(--keys-color-th1);
     background-color: var(--bg-key);
     box-shadow: var(--bg-key-shadow) 0px 4px 0px;
+    cursor: pointer;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
 }
 .key-del{
     border-radius: 5px;
     width: 100%;
     background-color: var(--bg-key-del);
     box-shadow: var(--bg-key-del-shadow) 0px 4px 0px;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+    
+    cursor: pointer;
 }
 .key-reset{
     border-radius: 5px;
     width: 100%;
     background-color: var(--bg-key-del);
     box-shadow: var(--bg-key-del-shadow) 0px 4px 0px;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+    
+    cursor: pointer;
 }
 .key-equals{
     border-radius: 5px;
     width: 100%;
     background-color: var(--bg-key-equals);
     box-shadow: var(--bg-key-equals-shadow) 0px 4px 0px;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+    
+    cursor: pointer;
 }
 .margen-boton{
     padding: 0px 20px 0px 20px;

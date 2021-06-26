@@ -32,30 +32,30 @@
                 </div>
             </div>
             <div class="result-container">
-                <p class="result">
-                    399,981
+                <p class="result" data-value="0" id="display">
+                    
                 </p>
             </div>
             <div class="keys-pad">
                 <!--  -->
                 <div class="keys-line">
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(7)">
                             7
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(8)">
                             8
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(9)">
                             9
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="key-del text-center">
+                        <div class="key-del text-center" onclick="calculator('del')">
                             DEL
                         </div>
                     </div>
@@ -63,22 +63,22 @@
                 <!--  -->
                 <div class="keys-line">
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(4)">
                             4
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(5)">
                             5
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(6)"> 
                             6
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator('+')">
                             +
                         </div>
                     </div>
@@ -86,22 +86,22 @@
                 <!--  -->
                 <div class="keys-line">
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(1)">
                             1
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(2)">
                             2
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(3)">
                             3
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator('-')">
                             -
                         </div>
                     </div>
@@ -109,22 +109,22 @@
                 <!--  -->
                 <div class="keys-line">
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator('point')">
                             .
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator(0)">
                             0
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator('divide')">
                             /
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="number text-center">
+                        <div class="number text-center" onclick="calculator('x')">
                             x
                         </div>
                     </div>
@@ -132,12 +132,12 @@
                 <!--  -->
                 <div class="keys-line">
                     <div class="margen-boton">
-                        <div class="key-reset text-center">
+                        <div class="key-reset text-center" onclick="calculator('reset')">
                             RESET
                         </div>
                     </div>
                     <div class="margen-boton">
-                        <div class="key-equals text-center">
+                        <div class="key-equals text-center" onclick="calculator('equal')">
                             =
                         </div>
                     </div>
@@ -146,5 +146,6 @@
             </div>
         </div>
     </div>
+    <script src="calculator.js"></script>
 </body>
 </html>
